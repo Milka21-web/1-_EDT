@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07db419e-0111-4664-aedd-75253a8feaab">
+  <producedTypes>
+    <refType typeId="5f21a4ee-a367-4fd0-b97e-a7dd2a19e0ad" valueTypeId="d3279bc0-5bc2-457a-8568-a804fcca881e"/>
+    <listType typeId="e5e1fc29-9ce5-40dd-848a-75e17f6a743b" valueTypeId="df6a31ea-f3be-4981-89d6-feb3999c4b43"/>
+    <managerType typeId="5ea1017d-2d46-4b58-bbb3-5232032ac050" valueTypeId="6954f07e-2aaa-4076-ba5a-89c5ef78746d"/>
+  </producedTypes>
+  <name>МестоСтоянки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Место стоянки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="82e3c50f-b9f7-40cd-9262-9f0ab71d779c">
+    <name>ПарковочноеМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Парковочное место</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3076740c-d75e-412d-a11e-3e1bbd2b34ce">
+    <name>Гараж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гараж</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1dd516d-8765-49fa-9897-691dd9e2e971">
+  <producedTypes>
+    <refType typeId="a0d53981-3e5a-4612-ab92-fb7a31beea12" valueTypeId="16ed84d1-2dea-42ad-9078-b4e3b82a02b5"/>
+    <listType typeId="8c52ad21-7d17-43e4-8cd8-367632fb1778" valueTypeId="215958d0-a6e4-4679-bbf8-0e13a551733a"/>
+    <managerType typeId="559878d2-81f3-4f78-943f-51daaba157a8" valueTypeId="cebdea57-23dc-4632-9a68-82bc836f9ff8"/>
+  </producedTypes>
+  <name>ФормаОплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма оплаты</value>
+  </synonym>
+  <comment>безнал, наличные, кредитные карты</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="dea7846c-54b5-48d1-b9e6-273f21ca9fc6">
+    <name>Безнал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Безнал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4608f9ca-6c37-42e8-9b8b-6e3fee0f7348">
+    <name>Наличные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наличные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="29020b63-9017-4734-9bee-2e64c83d5d05">
+    <name>КредитнаяКарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кредитная карта</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
